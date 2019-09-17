@@ -1,0 +1,15 @@
+package javabook;
+
+public class Page057 {
+
+	public static void main(String[] args) {
+		int a = 3 , b = 4 ;
+		boolean x, y ;
+		
+		x = ( a < 0 ) ; // 거짓
+		y = ( b > 0 ) ; // 참 
+		System.out.println((a == 3) && (b == 3)); // 참 && 거짓
+		System.out.println( x || y ); // 거짓  || 참 
+	}
+
+}
